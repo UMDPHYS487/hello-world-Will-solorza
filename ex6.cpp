@@ -7,7 +7,9 @@ int *x;
 int main(){
     y=13;
     x=&y;
+    cout << x <<"\n";
     cout << *x <<"\n";
     y=67;
+    cout << x <<"\n";
     cout << *x <<"\n";
 }
